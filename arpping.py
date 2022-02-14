@@ -1,5 +1,6 @@
-# Simple Scapy script to ARP ping
+# Simple Scapy script to ARP ping. Usage example shown below
 
+#! /usr/bin/env python
 from scapy.all import srp,Ether,ARP,conf
 # or from scapy.all import *
 import sys
